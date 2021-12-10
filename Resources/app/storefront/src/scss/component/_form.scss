@@ -20,7 +20,7 @@ https://getbootstrap.com/docs/4.3/components/forms/
     }
 
     /* Workaround for missing placeholder color in chrome */
-    /* stylelint-disable-next-line selector-no-vendor-prefix */
+    /* stylelint-disable-next-line */
     &::-webkit-input-placeholder {
         color: $input-placeholder-color;
     }
