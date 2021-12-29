@@ -23,7 +23,7 @@ jobs:
                   php-version: 7.4
 
             - name: Install Dependencies
-              run: make dev -B
+              run: make dev
 
             - name: Run Stylelint
-              run: make stylelint -B
+              run: make stylelint
