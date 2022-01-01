@@ -1,7 +1,7 @@
 /*
-Flare Theme styles
+Shopware skin
 ==================================================
-Contains the imports to all Flare Theme styles.
+Contains the imports to all Shopware skin styles.
 
 The file organization follows the 7-1 pattern architecture
 https://sass-guidelin.es/#the-7-1-pattern
@@ -44,10 +44,7 @@ https://sass-guidelin.es/#the-7-1-pattern
 /*
  * Layout-related sections
  * ----------------------- */
-@import 'layout/top-bar';
-@import 'layout/header';
 @import 'layout/footer';
-@import 'layout/main-navigation';
 @import 'layout/navigation-flyout';
 @import 'layout/navigation-offcanvas';
 @import 'layout/offcanvas-cart';

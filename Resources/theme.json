@@ -10,7 +10,8 @@
     "app/storefront/src/scss/overrides.scss",
     "@StorefrontBootstrap",
     "@Plugins",
-    "app/storefront/src/scss/base.scss"
+    "app/storefront/src/scss/storefront/base.scss",
+    "app/storefront/src/scss/flaretheme/base.scss"
   ],
   "script": [
     "@Storefront",
