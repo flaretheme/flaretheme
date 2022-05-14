@@ -4,29 +4,29 @@ Actions
 */
 
 .header-actions-btn {
-  .icon {
-    color: $header-actions-icon-color;
-  }
-
-  &:hover {
-    &,
     .icon {
-      color: $header-actions-icon-color-hover;
+        color: $header-actions-icon-color;
     }
-  }
 
-  &:focus {
-    box-shadow: none;
-  }
+    &:hover {
+        &,
+        .icon {
+            color: $header-actions-icon-color-hover;
+        }
+    }
+
+    &:focus {
+        box-shadow: none;
+    }
 }
 
 .header-cart-total {
-  color: $primary;
-  font-size: $font-size-lg;
+    color: $primary;
+    font-size: $font-size-lg;
 }
 
 @include media-breakpoint-up(sm) {
-  .header-cart-badge {
-    display: none;
-  }
+    .header-cart-badge {
+        display: none;
+    }
 }

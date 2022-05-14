@@ -28,6 +28,12 @@
           "en-GB": "Header",
           "de-DE": "Header"
         }
+      },
+      "category": {
+        "label": {
+          "en-GB": "Category page",
+          "de-DE": "Kategorieseite"
+        }
       }
     },
     "blocks": {
@@ -96,6 +102,10 @@
           "en-GB": "Breadcrumbs",
           "de-DE": "Breadcrumbs"
         }
+      },
+      "sidebarFilter": {
+        "en-GB": "Sidebar Filter",
+        "de-DE": "Sidebar Filter"
       }
     },
     "sections": {
